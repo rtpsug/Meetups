@@ -1,0 +1,26 @@
+[
+    {
+        "Name":  "kale",
+        "Count":  2,
+        "Color":  0,
+        "Root":  false
+    },
+    {
+        "Name":  "yam",
+        "Count":  11,
+        "Color":  4,
+        "Root":  false
+    },
+    {
+        "Name":  "daikon",
+        "Count":  3,
+        "Color":  2,
+        "Root":  false
+    },
+    {
+        "Name":  "zucchini",
+        "Count":  5,
+        "Color":  0,
+        "Root":  false
+    }
+]
