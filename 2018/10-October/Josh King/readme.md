@@ -2,4 +2,4 @@
 
 Title                                                                   | Name                                                 | Youtube
 ----------------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------
-Optimizing Powershell for Speed                         | [Josh King](https://king.geek.nz/) | [Coming soon](https://www.youtube.com/channel/UCiTuB6HZiupE8CJ71vkMFnA)
+Optimizing Powershell for Speed                         | [Josh King](https://king.geek.nz/) | [View](https://www.youtube.com/watch?v=7zOkHAjqWWw)
