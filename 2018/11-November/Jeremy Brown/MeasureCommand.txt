@@ -1,0 +1,50 @@
+$a = Get-ADUser -Filter * | Select-Object -First 1000
+
+PS C:\Users\jeremy> Measure-Command { foreach ($user in $a) {$name=$user.Name; Get-ADUser -LDAPFilter "(name=$Name)"}}
+
+
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 19
+Milliseconds      : 179
+Ticks             : 191790582
+TotalDays         : 0.000221979840277778
+TotalHours        : 0.00532751616666667
+TotalMinutes      : 0.31965097
+TotalSeconds      : 19.1790582
+TotalMilliseconds : 19179.0582
+
+
+
+PS C:\Users\jeremy> Measure-Command { foreach ($user in $a) {$name=$user.distinguishedName; [adsi]"LDAP://$($name)"}}
+
+
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 0
+Milliseconds      : 23
+Ticks             : 234945
+TotalDays         : 2.71927083333333E-07
+TotalHours        : 6.52625E-06
+TotalMinutes      : 0.000391575
+TotalSeconds      : 0.0234945
+TotalMilliseconds : 23.4945
+
+
+
+PS C:\Users\jeremy> Measure-Command { foreach ($user in $a) {$name=$user.Name; Get-ADUser $Name}}
+
+
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 19
+Milliseconds      : 109
+Ticks             : 191090185
+TotalDays         : 0.000221169195601852
+TotalHours        : 0.00530806069444444
+TotalMinutes      : 0.318483641666667
+TotalSeconds      : 19.1090185
+TotalMilliseconds : 19109.0185
