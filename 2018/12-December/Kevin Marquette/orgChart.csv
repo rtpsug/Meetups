@@ -1,0 +1,22 @@
+ID,Name,Title,Manager
+1,John Luke,CEO,
+2,Latoya Price,VP,1
+3,Alexander Evans,VP,1
+4,Edward Allen,VP,1
+5,Stacy Scott,Director,2
+6,Kayla Gutierrez,Director,2
+7,Derrick Morales,Director,3
+8,Michelle Hernandez,Director,4
+9,Patrick Myers,Manager,6
+10,Dustin Phillips,Manager,7
+11,Allison Carter,Manager,8
+12,Angela Campbell,Staff,9
+13,Kenneth Carter,Staff,10
+14,Candice Stewart,Staff,5
+15,Emily Collins,Staff,9
+16,Christopher Sanchez,Staff,10
+17,Philip Clark,Staff,11
+18,James Campbell,Staff,2
+19,Maria Wilson,Staff,6
+20,Kimberly Robinson,Staff,1
+21,Kayla Barnes,Staff,11
