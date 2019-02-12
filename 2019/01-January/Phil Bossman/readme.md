@@ -5,4 +5,4 @@ Phil Bossman is an accomplished Windows administrator, a Citrix architect for a 
 
 Title                                                                   | Name                                                 | YouTube
 ----------------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------
-Eventlogs: Learn to Search like a "Boss" with PowerShell!                          | [PHill Bossman](http://schlauge.com/) | [Link to Video](https://www.youtube.com/watch?v=vhhXipqC6Do)
+Eventlogs: Learn to Search like a "Boss" with PowerShell!                          | [Phil Bossman](http://schlauge.com/) | [Link to Video](https://www.youtube.com/watch?v=vhhXipqC6Do)
