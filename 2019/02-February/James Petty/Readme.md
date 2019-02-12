@@ -6,4 +6,4 @@ James Petty...
 
 Title                                                                   | Name                                                 | YouTube
 ----------------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------
-JEA 101: Getting started with Just Enough Admnisitration                          | [James Petty](ScriptAutomateRepeat.com) | [Link to Video](https://www.youtube.com/watch?)
+JEA 101: Getting started with Just Enough Admnisitration                          | [James Petty](https://ScriptAutomateRepeat.com) | [Link to Video](https://www.youtube.com/watch?)
