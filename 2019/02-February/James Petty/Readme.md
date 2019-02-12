@@ -1,4 +1,4 @@
-## JEA 101: Getting started with Just Enough Admnisitration
+## An Introduction to Just Enough Administration
 
 Synopsis:
 James Petty...
@@ -6,4 +6,4 @@ James Petty...
 
 Title                                                                   | Name                                                 | YouTube
 ----------------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------
-JEA 101: Getting started with Just Enough Admnisitration                          | [James Petty](https://ScriptAutomateRepeat.com) | [Link to Video](https://www.youtube.com/watch?)
+An Introduction to Just Enough Administration                         | [James Petty](https://ScriptAutomateRepeat.com) | [Link to Video](https://www.youtube.com/watch?)
