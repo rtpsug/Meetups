@@ -6,4 +6,4 @@ Brandon Olin is a Cloud Architect and PowerShell MVP who focuses squarely on aut
 
 Title                                                                   | Name                                                 | YouTube
 ----------------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------
-Infrastructure Testing with Pester                          | [Brandon Olin](https://devblackops.io/) | [View](https://www.youtube.com/watch?v=YYupOzqTgTs)
+Infrastructure Testing with Pester                          | [Brandon Olin](https://devblackops.io/) | [Link to Video](https://www.youtube.com/watch?v=YYupOzqTgTs)
