@@ -20,7 +20,7 @@ website address (if applicable) |
 
 Give us a brief summary of what you covered in presentation. This text will be what people will see when they browse to your presentation
 
-Example:
+Example (dont worry too much about formatting):
 Synopsis:
 Michael Teske is a cloud advocate for [Pluralsight](https://www.pluralsight.com/), as well as a technology trainer with over 20 years of experience. Michael discusses the basics of Azure and how to get started setting up your first VM and the related networking and storage components. Michael also talks about how you can start with Azure on the cheap and shows you you can host apps like WordPress. This video has many references to online docs and various third party resources that you use to help increase your knowledge. 
 
