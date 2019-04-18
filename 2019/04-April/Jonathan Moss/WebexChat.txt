@@ -1,0 +1,191 @@
+from Stephen Chu to everyone:
+I think so
+
+from Stephen Chu to everyone:
+Hello people in the room, I / we? can't hear you
+
+from Stephen Valdinger to everyone:
+Come on Mike. Fix the audio
+
+from Stephen Valdinger to everyone:
+Oh, the room is muted. That be why
+
+from Stephen Chu to everyone:
+Mike, unmute the room and mute all of the rest of the users?
+
+from Stephen Chu to everyone:
+Or something?
+
+from Stephen Valdinger to everyone:
+Could be doing the "local" stuff right now too
+
+from Stephen Chu to everyone:
+Kevin Laux and Jonathan Moss, mute yourselves just in case?
+
+from Stephen Valdinger to everyone:
+Which we don't need to hear
+
+from Stephen Chu to everyone:
+true
+
+from Stephen Chu to everyone:
+I'm surprised that tools like this don't auto join you muted
+
+from corbob to everyone:
+hey I know that guy...
+
+from Adil L to everyone:
+Me too :-)
+
+from Stephen Valdinger to everyone:
+Never seen him
+
+from Mark Wragg to everyone:
+Still no audio on the call FYI
+
+from Stephen Valdinger (privately):
+The room is muted. FYI
+
+from Jason Milczek to everyone:
+silence
+
+from corbob to everyone:
+and no video from the room anymore...
+
+from Mike Campbell to everyone:
+should there be audio?
+
+from Jason Milczek to everyone:
+...twas my experience the last one I attended
+
+from Jonathan Moss to everyone:
+working on it
+
+from Jonathan Moss to everyone:
+hang tight :)
+
+from Kevin Laux to everyone:
+Sorry about that I muted earlier when we were getting feedback
+
+from Kevin Laux to everyone:
+can you guys hear now?
+
+from Jason Milczek to everyone:
+yes
+
+from Mike Kanakos to everyone:
+hey guys... sorry - we might have muted the room. we'll get that fixed if its still a problem. 
+
+from Adil L to everyone:
+All good now
+
+from Stephen Valdinger to everyone:
+More betters
+
+from Mike Kanakos to everyone:
+everyone can here ok? 
+
+from Greg Onstot to everyone:
+yes, sounds good
+
+from Mike Kanakos to everyone:
+just wanted to say thanks to all my peeps on slack and discord who joined us tonight! so appreciate you coming and spending time
+
+from corbob to everyone:
+Thank you for hosting this so we can join remotely
+
+from Adil L to everyone:
++1 :-)
+
+from Stephen Valdinger to everyone:
++2
+
+from Mike Campbell to everyone:
++1
+
+from Kevin Blumenfeld to everyone:
+Why didn't Because throw test, text show?
+
+from Kevin Blumenfeld to everyone:
+thank you!
+
+from Mike Kanakos to everyone:
+i got you!
+
+from TJ Reynolds to everyone:
+Invoke-Test
+
+from TJ Reynolds to everyone:
+https://github.com/pester/Pester/blob/master/Functions/It.ps1#L247
+
+from Mark Wragg to everyone:
+The idea is for each test to read in an english like way
+
+from Mark Wragg to everyone:
+It "does some thing that I expect" { "some thing" | should -be "what i expect }
+
+from Stephen Valdinger to everyone:
+Mocking is awesome when you don't have a module that your code relies on
+
+from Stephen Valdinger to everyone:
+Looking at you AD module in Azure Pipelines
+
+from Jason Milczek to everyone:
+If you mock everything, seems like this would be useless.
+
+from Mark Wragg to everyone:
+Yeah you need to be careful
+
+from Mark Wragg to everyone:
+The general idea is to mock away cmdlets in your code that might be destructive where you don't want them to be
+
+from Mark Wragg to everyone:
+and then use assert-mockcalled to validate that that cmdlet was used (and therefore that your code got to and executed that step) without it really doing anything
+
+from Mark Wragg to everyone:
+it doesn't just have to be destructive cmdlets tho, you can mock away anything that you want to check ran without running, or as Jonathan has shown, where you want or need to create fixed outputs
+
+from Mark Wragg to everyone:
+important for cmdlets/functions that serve as input to your code.
+
+from Mark Wragg to everyone:
+The end result is usually that you end up testing the logic of your code in this way
+
+from Mark Wragg to everyone:
+e.g that it follows a certain path you expect when you run it with set input values
+
+from Mark Wragg to everyone:
+goes in to certain if blocks, or loops a number of times etc.
+
+from Stephen Valdinger to everyone:
+?regex and pester in the same talk
+
+from Stephen Chu to everyone:
+regexr.com to play with regex
+
+from Mark Wragg to everyone:
+now you have two problems :P
+
+from Stephen Valdinger to everyone:
+There was no warning at the front of this!
+
+from Stephen Chu to everyone:
+Compare-Object?
+
+from Kevin Blumenfeld to everyone:
+yes. thats very interesting!
+
+from Mark Wragg to everyone:
+I wrote a little generic server validator with Pester recently: https://github.com/markwragg/powershell-serverhealthcheck
+
+from Mike Kanakos to everyone:
+wow.. i need to check that out
+
+from Mark Wragg to everyone:
+Well done Jonathan, great session
+
+from David to everyone:
+outstanding
+
+from Mike Campbell to everyone:
+Thanks, Jonathan
