@@ -1,0 +1,3 @@
+Clear-Host
+
+Get-ShouldOperator

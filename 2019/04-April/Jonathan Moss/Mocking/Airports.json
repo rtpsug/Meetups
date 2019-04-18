@@ -1,0 +1,47 @@
+[
+  {
+    "Name": "Raleigh-Durham International Airport",
+    "PhoneNumber": "919-840-2123",
+    "Code": "RDU",
+    "City": "Raleigh",
+    "Website": "https://www.rdu.com",
+    "Airlines": [
+      "Delta",
+      "Southwest",
+      "Alaska Airlines",
+      "Allegiant",
+      "Air Canada",
+      "American Airlines",
+      "Frontier",
+      "JetBlue",
+      "Spirit",
+      "United"
+    ]
+  },
+  {
+    "Name": "Phoenix Sky Harbor International Airport",
+    "PhoneNumber": "602-273-3300",
+    "Code": "PHX",
+    "City": "Phoenix",
+    "Website": "https://www.skyharbor.com",
+    "Airlines": [
+      "Advanced Air",
+      "Air Canada",
+      "Alaska Airlines",
+      "American Airlines",
+      "Boutique Air",
+      "British Airways",
+      "Condor Airlines",
+      "Delta",
+      "Frontier",
+      "Hawaiian",
+      "Jet Blue",
+      "Southwest",
+      "Spirit",
+      "Sun Country",
+      "United",
+      "Volaris",
+      "WestJet"
+    ]
+  }
+]
