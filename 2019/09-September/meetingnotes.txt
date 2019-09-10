@@ -1,0 +1,156 @@
+from StevenJ to everyone:
+would you please IM me some pizza? I'm hungry
+from Halbarad to everyone:
+:pizza: is the best I can do
+from StevenJ to everyone:
+Mmm. UK flavoured pizza
+from StevenJ to everyone:
+I even spelled "flavoured" properly. :)
+from Halbarad to everyone:
+Well done, we'll teach the rest of you lot how to spell correctly eventually
+from StevenJ to everyone:
+their there, its you're they're to spell
+from StevenJ to everyone:
+I'm learning a lot about luggage... lots of in room knowledge and experience
+from StevenJ to everyone:
+we can hear you just fine
+from Francisco Navarro to everyone:
+hello all hope you are well! may be in an out
+from brett miller to everyone:
+Good evening!
+from Jonathan Moss to everyone:
+howdy sir
+from brett miller to everyone:
+I would have come if I'd known :D
+from brett miller to everyone:
+7preview 3
+from brett miller to everyone:
+it's only midnight 🙄
+from Josh King to everyone:
+Howdy all
+from brett miller to everyone:
+afternoon josh
+from brett miller to everyone:
+Mark Kraus wrote a module for BetterTLS
+from brett miller to everyone:
+https://github.com/markekraus/bettertls
+from brett miller to everyone:
+AutoRest is really good for API's if they stick to the OpenAPI spec. Few using the spec, fewer sticking to the specification :)
+from brett miller to everyone:
+I'd advocate for using the correct naming convention so that you don't have to skip PSSA checks
+from brett miller to everyone:
+You will get PSSA warnings otherwise
+from David Kirchmer to everyone:
+We use several powershell scripts that populate several "Controls Reports" related to security items such as AV Compliance.  Those scripts are currently signed to prevent tampering with the code but Private/Public sounds like another means of preventing modifications to the critical sections related to the "Control"
+from mike kanakos to everyone:
+Garbage collection Primer:http://blog.beyondimpactllc.com/blog/garbage-collection-with-powershell
+from mike kanakos to everyone:
+Garbage Collection Primer:
+from mike kanakos to everyone:
+http://blog.beyondimpactllc.com/blog/garbage-collection-with-powershell
+from Lars to everyone:
+[system.gc]::Collect()
+from brett miller to everyone:
+Start-job creates a background job on the local computer
+from StevenJ to everyone:
+What do you do if the servers are not divisible by 10?
+from brett miller to everyone:
+using the -AsJob or Invoke-Command runs it on the remote machine
+from Jonathan Moss to everyone:
+Except for PowerCLI :(
+from Jonathan Moss to everyone:
+It has a handful of limitations from what I recall.
+from brett miller to everyone:
+yeah in this instance as it's effectively hitting an API then the background local jobs makes sense
+from Matt R to everyone:
+https://communities.vmware.com/thread/588404?start=15&tstart=0
+from Kevin Laux to everyone:
+was there anyone online that wanted to share?
+from brett miller to everyone:
+I've been playing with Az Functions local debugging which is interesting but probably not a lightning talk :D
+from Jonathan Moss to everyone:
+Brett show off your twitch module!
+from Kevin Laux to everyone:
+one mans playing around is another mans lightning talk?
+from brett miller to everyone:
+yeah, playing around is deploying 3 az functions in an app service which will be using event grid eventually
+from StevenJ to everyone:
+Line 19: why not output the PSCustomObject to the success stream at this point. That way, any errors would not break the entire output of results.
+from Jonathan Moss to everyone:
+^^
+from brett miller to everyone:
+I have an Az Function Demo from a previous meetup
+from StevenJ to everyone:
+Why not put "PD" on the end of your production server names so the length of your server names are the same length?
+from StevenJ to everyone:
+Yes
+from Francisco Navarro to everyone:
+great talk on Azure Functions Brett!
+from brett miller to everyone:
+Cheers man, bit last minute :D
+from StevenJ to everyone:
+Thx for the info. Have to run home
+from Francisco Navarro to everyone:
+I heard it was on the spot 😬, did great! are you flying over the pond for  the Summit by any chance
+from brett miller to everyone:
+I've got a couple of sessions to put in for the CFP so fingers crossed
+from brett miller to everyone:
+Got PSDay at the end of the month
+from Francisco Navarro to everyone:
+yeah, sucks I won't make that one.
+from brett miller to everyone:
+Matthias is there too :D
+from Francisco Navarro to everyone:
+at psday?
+from brett miller to everyone:
+Yeah, we're on at the same time on different tracks
+from brett miller to everyone:
+beauty of being the new person is you can plead ignorant when annoying people endlessly
+from brett miller to everyone:
+01:34
+from brett miller to everyone:
+giving the the guy whos just been to defcon the wifi password!
+from brett miller to everyone:
+shots shots shots
+from mike kanakos to everyone:
+lolz
+from brett miller to everyone:
+I built 6 x 2003 R2 Domain Controllers about 3 years ago
+from corbob to everyone:
+we have 30 admins that only have admin on our workstations. less than 10 are domain admin
+from brett miller to everyone:
+ahem PSDay
+from corbob to everyone:
+and with that...
+from brett miller to everyone:
+This is an awesome blog post by Ashley https://blogs.technet.microsoft.com/ashleymcglone/2012/10/17/ad-group-history-mystery-powershell-v3-repadmin/
+from Michael Teske to everyone:
+i hate that trust relationship error...see those randomly at a client
+from Michael Teske to everyone:
+more than randomly
+from Michael Teske to everyone:
+that's awesome..."unsupported state"
+from Michael Teske to everyone:
+I recall on W7 I was able to disjoin from domain (UI) by adding to workgroup...waiting for confirmation and 'request' for reboot, but then joining to domain and then rebooting...on reboot..I could have been hallucinating...but I swear it worked.
+from brett miller to everyone:
+Right.....I'm going to bed :D
+from Michael Kurzdorfer to everyone:
+Fantastic war story!
+from TJ to everyone:
+thanks Mathias 
+from Michael Teske to everyone:
+Great story!...Loved it!
+from Kevin Blumenfeld to everyone:
+That was awesome!!!!!
+from David Kirchmer to everyone:
+Thanks, great story!!
+from Michael Teske to everyone:
+Done!
+from brett miller to everyone:
+later folks
+from brett miller to everyone:
+I'm there
+from Peter Carnella to everyone:
+Thanks Mathias, everyone!
+from Michael Teske to everyone:
+Thanks Mathias!
