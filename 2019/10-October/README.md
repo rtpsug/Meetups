@@ -1,1 +1,1 @@
-# MIKE WHERE ARE YOUR SLIDES??? ALL OF THEM!
+#### October meetings
