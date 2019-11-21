@@ -1,6 +1,5 @@
-﻿#$PROFILE.CurrentUserCurrentHost
 <#
-    Description	Name
+    Paths:
     Current User, Current Host	$PROFILE
     Current User, Current Host	$PROFILE.CurrentUserCurrentHost
     Current User, All Hosts	$PROFILE.CurrentUserAllHosts
@@ -15,20 +14,6 @@ if ($currentPrincipal.IsInRole( [Security.Principal.WindowsBuiltInRole]::Adminis
     Write-Host "Warning: PowerShell is running as an Administrator." -BackgroundColor "Green"
 }
 else{
-    #Black, DarkBlue, DarkGreen, DarkCyan, DarkRed, DarkMagenta, DarkYellow, Gray, DarkGray, Blue, Green, Cyan, Red, Magenta, Yellow, White
-    <#
-    ForegroundColor       : DarkYellow
-    BackgroundColor       : DarkMagenta
-    CursorPosition        : 0,47
-    WindowPosition        : 0,0
-    CursorSize            : 25
-    BufferSize            : 120,3000
-    WindowSize            : 120,50
-    MaxWindowSize         : 120,72
-    MaxPhysicalWindowSize : 274,72
-    KeyAvailable          : False
-    WindowTitle           : Windows PowerShell
-    #>
     #(get-host).UI.RawUI.Backgroundcolor="Blue"
     Write-Warning "Warning: PowerShell is running without Admin rights to change this Run Set-Administrator"
     function Set-Administrator{
