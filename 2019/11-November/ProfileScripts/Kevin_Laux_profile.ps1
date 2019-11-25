@@ -1,12 +1,3 @@
-<#
-    Paths:
-    Current User, Current Host	$PROFILE
-    Current User, Current Host	$PROFILE.CurrentUserCurrentHost
-    Current User, All Hosts	$PROFILE.CurrentUserAllHosts
-    All Users, Current Host	$PROFILE.AllUsersCurrentHost
-    All Users, All Hosts	$PROFILE.AllUsersAllHosts
-#>
-#powershell_ise $PROFILE
 $currentPrincipal = New-Object Security.Principal.WindowsPrincipal( [Security.Principal.WindowsIdentity]::GetCurrent() )
 if ($currentPrincipal.IsInRole( [Security.Principal.WindowsBuiltInRole]::Administrator ))
 {
