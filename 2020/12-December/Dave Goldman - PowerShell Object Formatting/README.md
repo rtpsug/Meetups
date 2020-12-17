@@ -1,7 +1,7 @@
 # PowerShell Object Formatting
 ## Presenter: Dave Goldman
 ### Date: 16 December 2020
-### Email: 
+### Email: dgoldman@dgoldman.com
 ### Twitter: @matrixsurfer128
 ### GitHub: dgoldman-msft
 ### Website: http://www.microsoft.com/
