@@ -39,6 +39,10 @@ There are no slides for this presentation. The presentation is focused on demos.
    - Visual Studio Code (see https://code.visualstudio.com)
    - Microsoft Docs Authoring Pack (see https://docs.microsoft.com/contribute/how-to-write-docs-auth-pack)
 
+1. Quick overview of GitHub workflow
+
+   ![GitHub Workflow](gitflow.png)
+
 1. The VS Code features and extensions I use
 
    - VS Code features
