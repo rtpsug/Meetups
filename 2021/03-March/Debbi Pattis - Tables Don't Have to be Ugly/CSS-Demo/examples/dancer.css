@@ -1,0 +1,131 @@
+body{ font-size:10px; background:#1a1a1a; overflow:hidden; }
+body:after, body:before{ content:''; position:absolute; width:800%; height:100%; left:0; top:0; background:linear-gradient(to right, red, yellow, cyan, red, yellow, cyan); z-index:-1; animation:bg 4s linear 0s infinite alternate; }
+.ground{ position:fixed; width:100%; height:7%; background:#333; z-index:1; animation:none; bottom:0; left:0; }
+div, span{ transition:.2s; }
+
+.wrap{ display:flex; }
+
+.person{ position:relative; text-align:center; width:15em; margin:auto; margin-top:10em; animation:bounce .5s infinite; display:inline-block; }
+.head{ position:relative; width:10em; height:10em; background:brown; border-radius:50%; margin:auto; overflow:hidden; }
+.head:after{ content:''; position:absolute; background:tan; width:10em; height:10em; left:5em; top:1em; border-radius:0em 1em 0 0; transform-origin:top left; transform:rotate(45deg) }
+.body{ position:relative; width:8em; height:15em; background:teal; margin:auto; margin-top:; border-radius:2em 2em 0 0; }
+
+.shoulders{ position:absolute; width:10em; height:5em; background:inherit; left:-1em; top:0; border-radius:50%; }
+
+.arm{ position:absolute; width:2em; height:10em; background:teal; top:2em; border-radius:2em 2em 0 0; z-index:2; }
+.arm.left{ left:-2em; transform-origin:top; animation:leftarm 2s ease-in-out 0s  infinite; }
+.arm.right{ right:-2em; transform-origin:top left; animation:rightarm 2s ease-in-out 0s infinite; }
+
+.arm>span{ position:absolute; background:tan; width:1.5em; height:10em; top:9em; left:.25em; border-radius:1em; transform-origin:top; }
+.arm.left>span{ animation:leftspan 2s ease-in-out 0s infinite; }
+.arm.right>span{ animation:rightspan 2s ease-in-out 0s infinite; }
+
+
+.hips{ position:relative; width:8em; height:5em; background:navy; margin:auto; }
+.hips:before, .hips:after{ content:''; position:absolute; background:inherit; height:1em; width:4em; top:100%; border-radius:0 0 50% 50%; right:0; }
+.hips:before{ left:0; }
+.leg{ position:absolute; width:3.75em; height:11em; background:navy; top:3em; transform-origin:top center; border-radius:2em 2em 1em 1em; z-index:1; }
+.leg.left{ left:0; animation:leftleg 1s infinite; }
+.leg.right{ right:0; animation:rightleg 1s infinite; }
+
+.leg>div{ position:absolute; width:2em; height:12em; background:navy; left:1em; top:9em; border-radius:2em 2em 0 0; transform-origin:top center; }
+.leg .knee{ display:none; position:absolute; width:2em; height:3em; background:tan; top:1em; left:-.75em; border-radius:45%; z-index:-1; }
+.leg.right .knee{ left:.75em; }
+.leg .pant{ display:none; position:absolute; width:2em; height:3em; background:blue; top:1em; left:-.75em; border-radius:45%; z-index:-1; }
+.leg.right .pant{ left:.75em; }
+.leg.right>div{ animation:rightlegspan 1s infinite; }
+.leg.left>div{ animation:leftlegspan 1s infinite; } 
+
+.leg>div>span{ position:absolute; width:5em; height:2em; bottom:0; right:-.5em; background:brown;  }
+.leg.right>div>span{ transform-origin:left; left:-.5em; animation:rightfoot 1s infinite; }
+.leg.left>div>span{ transform-origin:right; animation:leftfoot 1s infinite; }
+
+
+.hair{ position:absolute; width:10em; height:20em; background-color:brown; top:0; left:2.5em; border-radius:5em; z-index:-1; }
+.two .body, .two .arm{ background:maroon; } 
+
+@keyframes bounce{
+   0%{ transform:translateY(0) }
+   50%{ transform:translateY(2px) }
+   100%{ transform:translateY(0) }
+}
+@keyframes rightarm{
+   0%{ transform:rotate(0) translate(0, 0);  }
+   25%{ transform:rotate(-10deg) translate(-1em, -.5em); }
+   50%{ transform:rotate(0) translate(0, 0); }
+   75%{ transform:rotate(-85deg) translate(-1em, -1.5em); }
+   100%{ transform:rotate(0) translate(0, 0); }
+}
+@keyframes rightspan{
+   0%{ transform:rotate(0) translate(0, 0);  }
+   25%{ transform:rotate(120deg) }
+   50%{ transform:rotate(0) translate(0, 0); }
+   75%{ transform:rotate(90deg) }
+   100%{ transform:rotate(0) translate(0, 0); }
+}
+@keyframes leftarm{
+   0%{ transform:rotate(0) translate(0, 0);  }
+   25%{ transform:rotate(10deg) translate(1em, -.5em); }
+   50%{ transform:rotate(0) translate(0, 0); }
+   75%{ transform:rotate(85deg) translate(0em, -1.5em) }
+   100%{ transform:rotate(0) translate(0, 0); }
+}
+@keyframes leftspan{
+   0%{ transform:rotate(0) translate(0, 0);  }
+   25%{ transform:rotate(-160deg) }
+   50%{ transform:rotate(0) translate(0, 0); }
+   75%{ transform:rotate(-90deg) }
+   100%{ transform:rotate(0) translate(0, 0); }
+}
+
+@keyframes rightleg{
+   0%{ transform:rotate(-30deg) }
+   25%{ transform:rotate(-15deg) }
+   50%{ transform:rotate(-30deg) }
+   75%{ transform:rotate(-15deg) }
+   100%{ transform:rotate(-30deg) }
+}
+@keyframes leftleg{
+   0%{ transform:rotate(15deg) }
+   25%{ transform:rotate(30deg) }
+   50%{ transform:rotate(15deg) }
+   75%{ transform:rotate(30deg) }
+   100%{ transform:rotate(15deg) }
+}
+@keyframes rightlegspan{
+   0%{ transform:rotate(45deg) translate(1em, -1em); }
+   25%{ transform:rotate(0) translate(0); }
+   50%{ transform:rotate(45deg) translate(1em, -1em); }
+   75%{ transform:rotate(0) translate(0); }
+   100%{ transform:rotate(45deg) translate(1em, -1em); }
+}
+@keyframes leftlegspan{
+   0%{ transform:rotate(0) translate(0); }
+   25%{ transform:rotate(-45deg) translate(-1em, -1em); }
+   50%{ transform:rotate(0) translate(0); }
+   75%{ transform:rotate(-45deg) translate(-1em, -1em); }
+   100%{ transform:rotate(0) translate(0); }
+}
+@keyframes rightfoot{
+   0%{ transform:rotate(30deg) translate(0, 0); }
+   25%{ transform:rotate(15deg) translate(0); }
+   50%{ transform:rotate(30deg) translate(0, 0); }
+   75%{ transform:rotate(15deg) translate(0); }
+   100%{ transform:rotate(30deg) translate(0, 0); }
+}
+@keyframes leftfoot{
+   0%{ transform:rotate(-15deg) translate(0, 0); }
+   25%{ transform:rotate(-30deg) translate(0); }
+   50%{ transform:rotate(-15deg) translate(0, 0); }
+   75%{ transform:rotate(-30deg) translate(0); }
+   100%{ transform:rotate(-15deg) translate(0, 0); }
+}
+
+
+
+
+
+@keyframes bg{
+   0%{ transform:translateX(0) }
+   0%{ transform:translateX(-87.25%) }
+}

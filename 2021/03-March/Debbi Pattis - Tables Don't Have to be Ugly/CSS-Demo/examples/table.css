@@ -1,0 +1,7 @@
+table{ border:1px solid #333; border-collapse:collapse; }
+
+tr{  }
+tr:nth-child(odd){ background:#efefef }
+tr:hover{ background:#cfe8ff; }
+
+td{ padding:5px 20px 5px 10px; border:1px solid #333; }
