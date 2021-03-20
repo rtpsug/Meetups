@@ -24,5 +24,5 @@ This Action-packed presentation will show you how fun and useful this new GitHub
 &nbsp;
 
 [All Repos](https://github.com/potatoqualitee?tab=repositories)  
-[RTPSUG Presentation](https://github.com/potatoqualitee/tentools)
-[RTPSUG Presentation](https://github.com/potatoqualitee/psmodulecache)
+[Tentools](https://github.com/potatoqualitee/tentools)  
+[PSModuleCache](https://github.com/potatoqualitee/psmodulecache)  
