@@ -6,7 +6,7 @@
 
 ### Twitter: [@steviecoaster](https://twitter.com/steviecoaster)
 
-### GitHub: [Stephen Valdinger](https://github.com/steviecoaster))
+### GitHub: [Stephen Valdinger](https://github.com/steviecoaster)
 
 ### Website: <https://steviecoaster.dev/>
 
