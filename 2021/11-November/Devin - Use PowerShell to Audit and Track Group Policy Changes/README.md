@@ -1,6 +1,6 @@
 # Containers: Use PowerShell to Audit and Track Group Policy Changes
 
-## Presenter: Devin
+## Presenter: Devin Rich
 
 ### Date: 17 Nov 2021
 
