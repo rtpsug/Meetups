@@ -42,5 +42,5 @@ No slides, or fancy presentations, just share some code to show what it does. Ea
 
 [Mark Dean](https://github.com/madean1415/Presentations/tree/master/modules/ResourceInventory)  
 [Doug Finke](https://github.com/dfinke/PSPx)  
-[Gregg Lott](https://github.com/glsc251/RTPSUG)
+[Gregg Lott](https://github.com/glsc251/RTPSUG)  
 [Jeremy Brown](https://github.com/BananaJama/PowerShell)  
