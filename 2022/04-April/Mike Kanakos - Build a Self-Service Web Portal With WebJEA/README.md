@@ -1,8 +1,8 @@
-# Getting started with Azure DevOps for sysadmins
+# Build a Self-Service Web Portal With WebJEA
 
 ## Presenter: Mike Kanakos
 
-### Date: 1 Sep 2021
+### Date: 20 Apr 2022
 
 ### Twitter: [@MikeKanakos](https://twitter.com/MikeKanakos)
 
