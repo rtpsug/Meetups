@@ -22,5 +22,5 @@ James Brundage is the Founder & Lead Developer of Start-Automating, a consulting
 &nbsp;
 &nbsp;
 
-[uGit](https://github.com/StartAutomating/ugit)
+[uGit](https://github.com/StartAutomating/ugit)  
 [All Repos](https://github.com/StartAutomating?tab=repositories)  
