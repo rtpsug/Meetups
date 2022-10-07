@@ -23,4 +23,4 @@ Jeremy Brown is a is a long-time Microsoft professional with over 20 years exper
 &nbsp;
 
 [All Repos](https://github.com/BananaJama?tab=repositories)  
-[Bicep Pt1](https://github.com/BananaJama/Azure/tree/main/RTPSUG-Bicep)  
+[Bicep Pt1](https://github.com/BananaJama/Azure/tree/main/RTPSUG-Bicep-Pt2)  
